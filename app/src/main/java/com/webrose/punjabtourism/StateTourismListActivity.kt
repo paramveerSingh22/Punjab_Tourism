@@ -21,6 +21,7 @@ class StateTourismListActivity :AppCompatActivity() {
 
 
 
+
             val goldenTemple = TourismData(
                 R.drawable.ic_golden_temple,
                 "Sri Harmandir Sahib (Golden Temple)",
