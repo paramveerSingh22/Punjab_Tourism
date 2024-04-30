@@ -12,6 +12,7 @@ class StateTourismListActivity :AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_page)
         val tvTitle = findViewById<TextView>(R.id.tvTitle)
+
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
         tvTitle.text=intent.getStringExtra("title")
