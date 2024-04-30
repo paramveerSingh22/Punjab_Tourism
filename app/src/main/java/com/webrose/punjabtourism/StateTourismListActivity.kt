@@ -10,6 +10,7 @@ class StateTourismListActivity :AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_detail_page)
 
         val tvTitle = findViewById<TextView>(R.id.tvTitle)
