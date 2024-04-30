@@ -19,6 +19,8 @@ class StateTourismListActivity :AppCompatActivity() {
 
         if (intent.getStringExtra("title")=="Amritsar") {
 
+
+
             val goldenTemple = TourismData(
                 R.drawable.ic_golden_temple,
                 "Sri Harmandir Sahib (Golden Temple)",
